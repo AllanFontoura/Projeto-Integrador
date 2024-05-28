@@ -1,0 +1,115 @@
+/* Menu 1 */
+
+.t-home .is--fixed,
+.t-header__flex.is--fixed {
+    background: #ffbe70;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 3.875rem;
+    padding: 1rem 2rem;
+}
+
+.t-header__flex {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 1.5rem 2rem 1.625rem;
+    background: transparent;
+    z-index: 5080;
+    width: 100vw;
+    height: 5rem;
+    transition: all .4s ease;
+    transform: transition;
+    position: relative;
+}
+
+.link_menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.link_menu li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.link_menu li:last-child {
+    margin-right: 0;
+}
+
+.link_menu li a {
+    color: #c13725;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.link_menu li a:hover {
+    color: #fff;
+}
+
+.logo {
+    padding-right: 100px; 
+}
+
+.logo img {
+    vertical-align: middle; 
+    height: 100px;
+}
+
+
+/* Home */
+
+* {box-sizing: border-box}
+    body {font-family: 'Montserrat', sans-serif; margin: 0}
+
+
+/* Rodapé */
+        /* Estilos para o rodapé */
+        footer {
+            background-color: #f2f2f2;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Estilos para a faixa preta */
+        .info-bar {
+            background-color: #d3d3d3;
+            color: #424242;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        /* Estilos para os links no rodapé */
+        footer a {
+            color: #333;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        /* Estilos para os links no rodapé quando passa o mouse */
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+
+/* Termos e Privacidade */
+
+    .politica{
+        text-align: left;
+        padding: 150px;
+        }
+
+    .termos{
+       text-align: left;
+        padding: 150px;
+       }
+
+
+
